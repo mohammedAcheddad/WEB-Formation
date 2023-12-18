@@ -1,0 +1,32 @@
+button{
+    background: aqua;
+    margin: 10px;
+}
+.div2{
+    margin: 4px;
+    display: flex;
+    flex-direction: column;
+}
+.div3{
+    margin: 4px;
+    display: flex;
+    flex-direction: column;
+}
+.div1{
+    background-color: beige;
+    border-radius: 12px;
+}
+body{
+    height: 100vh;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    background-image: url(pic1.jpg);
+    background-size: 100%;
+}
+
+/* Add styles for the overlay container */
+.overlay {
+    z-index: 1; 
+}
